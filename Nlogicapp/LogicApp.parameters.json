@@ -1,0 +1,22 @@
+{
+  {
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "logicAppName": {
+        "value": "ActivateJobDev"
+      },
+      "azurequeues_1_Connection_Name": {
+        "value": "azurequeues"
+      },
+      "azurequeues_1_Connection_DisplayName": {
+        "value": "storageaccount"
+      },
+      "azurequeues_1_storageaccount": {
+        "value": "storageaccount"
+      },
+      "azurequeues_1_sharedkey": {
+        "value": "xxxxxxxxxxxxxxx"
+      }
+    }
+  }
